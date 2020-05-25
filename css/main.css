@@ -92,6 +92,9 @@ section {
 .arrow-down:active {
   background-color: rgba(255, 255, 255, 0.8);
 }
+.arrow-down:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
 @media (min-width: 1200px) {
   .arrow-down {
     width: 60px;
