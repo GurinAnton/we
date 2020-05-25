@@ -19,9 +19,13 @@ section {
 }
 .header {
   position: relative;
-  width: 100%;
+  width: 100vw;
   height: 100vh;
   background-image: url("../img/1/8.jpg");
+  -moz-background-size: cover;
+       background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .block-title {
   position: absolute;
