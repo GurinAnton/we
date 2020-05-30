@@ -20,7 +20,7 @@ a {
     background-image: none;
   }
 }
-.block-title {
+.section-block {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -31,9 +31,13 @@ a {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 25px;
+  font-size: 32px;
+  padding: 5px;
 }
 @media (min-width: 1200px) {
-  .block-title {
+  .section-block {
+    width: 700px;
+    font-size: 46px;
     padding: 50px;
   }
 }
@@ -66,7 +70,7 @@ a {
 .arrow-down {
   position: absolute;
   bottom: 30px;
-  left: 43%;
+  left: 45%;
   width: 45px;
   height: auto;
   padding: 10px;
@@ -101,7 +105,7 @@ a {
 }
 @media (min-width: 1200px) {
   .main {
-    background-image: url("../img/bg.jpg");
+    background-image: url("../img/bg.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -115,7 +119,7 @@ a {
 }
 @media (min-width: 1200px) {
   #section1 {
-    background-image: url("../img/1.jpg");
+    background-image: url("../img/1.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -129,7 +133,7 @@ a {
 }
 @media (min-width: 1200px) {
   #section2 {
-    background-image: url("../img/2.jpg");
+    background-image: url("../img/2.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -143,7 +147,7 @@ a {
 }
 @media (min-width: 1200px) {
   #section3 {
-    background-image: url("../img/3.jpg");
+    background-image: url("../img/3.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -157,7 +161,7 @@ a {
 }
 @media (min-width: 1200px) {
   #section4 {
-    background-image: url("../img/4.jpg");
+    background-image: url("../img/4.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -171,7 +175,7 @@ a {
 }
 @media (min-width: 1200px) {
   #section5 {
-    background-image: url("../img/5.jpg");
+    background-image: url("../img/5.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -185,7 +189,7 @@ a {
 }
 @media (min-width: 1200px) {
   #section6 {
-    background-image: url("../img/6.jpg");
+    background-image: url("../img/6.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -199,7 +203,7 @@ a {
 }
 @media (min-width: 1200px) {
   #section7 {
-    background-image: url("../img/7.jpg");
+    background-image: url("../img/7.JPG");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -208,29 +212,8 @@ a {
 #section7 .arrow-down {
   transform: rotate(180deg);
 }
-.section-block {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  min-width: 300px;
-  color: #262626;
-  font-family: "Pacifico", cursive;
-  text-align: center;
-  background-color: rgba(255, 255, 255, 0.4);
-  border-radius: 25px;
-  font-size: 32px;
-  padding: 5px;
-}
-@media (min-width: 1200px) {
-  .section-block {
-    width: 700px;
-    font-size: 46px;
-    padding: 50px;
-  }
-}
 .animate__shakeY {
-  animate-delay: 2s;
+  animate-delay: 3s;
 }
 * {
   box-sizing: border-box;
