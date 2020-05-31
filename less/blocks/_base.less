@@ -3,7 +3,7 @@ a {
   display: inline-block;
 }
 
-section {
+.section {
   position: relative;
   max-width: 1920px;
   height: 100vh;
@@ -17,6 +17,12 @@ section {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  back
+
+& img {
+  position: absolute;
+  left: 40%;
+}
 
   // Десктоп
   @media (min-width: 1200px) {
@@ -36,7 +42,7 @@ section {
   text-align: center;
   background-color: rgba(255, 255, 255, 0.4);
   border-radius: 25px;
-  font-size: 32px;
+  font-size: 28px;
   padding: 5px;
 
   // Планшет
@@ -247,6 +253,10 @@ section {
     background-repeat: no-repeat;
     background-position: center;
   }
+}
+
+#section6 .section-block {
+  line-height: 1.6;
 }
 
 #section7 {
