@@ -13,7 +13,7 @@ a {
   background-image: url("../img/1/8.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: -115px 0px;
 }
 back .header img {
   position: absolute;
